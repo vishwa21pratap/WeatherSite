@@ -4,7 +4,7 @@ import { useState } from "react";
 import './App.css';
 
 function App() {
-  const apiKey = "d981eeb277291643b98a51ac0fe7730a";
+
   const [inputCity, setInputCity] = useState("");
   const [data, setData] = useState({});
   const [errorMessage, setErrorMessage] = useState("");
